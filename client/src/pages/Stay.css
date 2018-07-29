@@ -1,0 +1,33 @@
+.stay-background {
+    background: black;
+    
+}
+
+.pageTitle {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.yelp-cards, .meetup-cards {
+    padding: 30px;
+    background: white;
+    margin-bottom: 30px;
+    border: solid;
+    border-radius: 10px;
+}
+
+.stay-logo {
+    height: 75px;
+  width: auto;
+}
+
+nav.navbar {
+    height: 100px;
+    background: black;
+}
+
+.stay-glyphicon-home:before {
+    content: "\e021";
+    font-size: 24px;
+    color: white;
+}

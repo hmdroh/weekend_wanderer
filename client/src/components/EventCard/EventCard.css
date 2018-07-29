@@ -1,0 +1,40 @@
+.card-image {
+  background: #fff;
+  border: solid;
+  border-radius: 7px;
+  border-width: 4px;
+  height: 300px;
+  margin: 1rem;
+  position: relative;
+  width: auto;
+  text-align: left;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.card-image > .img-container {
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  background:black;
+}
+.card-image > .img-container > img {
+  height: auto;
+  width: 100%;
+}
+
+.card-image:hover {
+  box-shadow: 5px 5px 2px grey;
+ 
+}
+
+.card-event {
+  padding: 10px;
+  color:white;
+  height: 55%;
+}
+
+.card-body {
+  margin-top: 20px; 
+  color: white;
+  height: 45%;
+}
